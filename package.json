@@ -1,0 +1,30 @@
+{
+  "name": "keyv-cli",
+  "version": "1.0.0",
+  "description": "Simple key-value storage in the command line",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "bin": {
+    "keyv": "./dist/keyv-cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cli",
+    "storage"
+  ],
+  "author": "Alex Ryan",
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.0",
+    "@types/node": "^24.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
